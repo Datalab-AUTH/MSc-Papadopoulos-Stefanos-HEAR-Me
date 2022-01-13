@@ -1,0 +1,9 @@
+data_comp,model,k,dist_metric,user_based,Acc@1,Acc@5,Acc@10,Acc@50,Acc@100,MeanAcc,Coverage,Personalization,Novelty,ColdProb,ColdAcc@10,ColdAcc@50,ColdAcc@100,TrainingTime,EvaluationTime
+UsersEmotions,kNN + cosine,10,cosine,True,0.1013,0.7879,1.9248,9.3652,16.0063,5.6371,14.05,72.64,7.73,0.0,0.0,0.0,0.0,4.3906,379.6402
+UsersEmotions,kNN + cosine,10,cosine,False,0.0,0.0113,0.0563,1.0131,3.1067,0.8375,51.18,95.41,10.26,4.595,0.0,0.7018,2.1053,0.7188,228.4997
+UsersEmotions,kNN + cosine,20,cosine,True,0.0225,0.5741,1.362,8.8361,16.0288,5.3647,11.74,69.98,8.25,0.0,0.0,0.0,0.0,4.4063,402.4214
+UsersEmotions,kNN + cosine,20,cosine,False,0.0,0.0225,0.045,0.5741,1.9248,0.5133,45.03,94.76,10.36,6.4,0.0,0.8772,2.6316,0.7031,235.5466
+UsersEmotions,kNN + cosine,40,cosine,True,0.0225,0.4502,1.1819,8.8249,15.5223,5.2004,12.92,66.85,8.49,0.0,0.0,0.0,0.0,4.4062,420.2651
+UsersEmotions,kNN + cosine,40,cosine,False,0.0,0.0225,0.045,0.3152,1.1031,0.2972,47.59,94.84,10.38,6.3733,0.0,1.0526,3.1579,0.7031,234.656
+UsersAll,kNN + cosine,10,cosine,True,0.3629,1.4643,2.8053,11.011,18.0619,6.7411,13.12,73.57,4.25,0.0,0.0,0.0,0.0238,59.8281,2776.6685
+UsersAll,kNN + cosine,10,cosine,False,0.1492,0.8768,1.689,7.7987,13.9176,4.8863,88.48,97.56,5.8,11.2808,0.2144,1.6198,4.3116,4.8906,780.5459
